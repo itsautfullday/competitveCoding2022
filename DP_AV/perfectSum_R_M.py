@@ -1,17 +1,22 @@
 #https://practice.geeksforgeeks.org/problems/perfect-sum-problem5633/1
-#316/323 cases passed max recustion reached
+
 class Solution:
     def perfectSum(self , arr, n_size, sum):
+        countof0sAtIndex = [0 for i in range(n_size)]
+        count = 0
+        for i in range(n_size):
+            if(arr[i] == 0):
+                count +=1
+            countof0sAtIndex[i] = count
+        
         dp = [[-1 for i in range(sum + 1)] for j in range(n_size + 1)]
         # print("Arr ", arr[0:n_size])
         def helper(n, target):
             if(target == 0):
-                count0 = 0 
-                for i in range(n):
-                    if(arr[i] == 0):
-                        count0 +=1
-                # print("Count 0 ",count0)
-                return 1 + (2 ** count0 - 1)
+                if(n == 0):
+                    return 1 
+                else:
+                    return (2 ** (countof0sAtIndex[n-1]))
             if(n == 0):
                 return 0
             if(dp[n][target] != -1 ):
