@@ -1,3 +1,4 @@
 1. 7/1/24 : Could not solve Max profit in job scheduling : Need to learn how to use bisect, bisect right, left as binary search and see how to solve that problem, did solve 2 medium problems Convert an Array Into a 2D Array With Conditions and print of LCS (Code ninja submission)
 2. 8/1/24 : Could not solve string compression, need to recheck how to solve using 2 pointers Need to study up on using : Heap, graphs, dfs, bfs, matrix flood fills using the same, 2pointers
 3. 11/1/24 : Could not solve shortest common supersequence, aditya verma dp problem : Did solve problem : max diff between ancestors
+4. 17/1/24 : Solved 2 easy ish problems, Didnt solve : https://leetcode.com/problems/insert-delete-getrandom-o1/?envType=daily-question&envId=2024-01-16, https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/solutions/
