@@ -3,3 +3,4 @@
 3. 11/1/24 : Could not solve shortest common supersequence, aditya verma dp problem : Did solve problem : max diff between ancestors
 4. 17/1/24 : Solved 2 easy ish problems, Didnt solve : https://leetcode.com/problems/insert-delete-getrandom-o1/?envType=daily-question&envId=2024-01-16, https://leetcode.com/problems/minimum-deletions-to-make-string-balanced/solutions
 5. 31/1/24 : Solved only 1 problem in 45 mins, add stacks and queues and fucking remember the list funcitons you dip shit
+6. 1/2/24 : Did 2 medium problems but because I knew the second 1, seriously need to make a list of topics and take problems down 1 by 1 daily
